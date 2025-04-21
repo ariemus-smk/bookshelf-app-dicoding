@@ -8,18 +8,14 @@
     <meta name="author" content="Arie Musbandi" />
     <title>Tugas Bookshelf App</title>
 
-    <!-- Ini bagian CSS  -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- Ini Google Font Saya -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet" />
 
-    <!-- Ini JavaScript yang ditaruh di head -->
     <script defer src="assets/js/script.js"></script>
 
-    <!-- NOTE: Saya mengikuti template yang sudah ada, namun ada beberapa yang saya modifikasi sendiri -->
 </head>
 
 <body>
@@ -28,7 +24,6 @@
     </header>
 
     <main>
-        <!-- Tambah Buku -->
         <section>
             <h2 id="form-title">Tambah Buku Baru</h2>
             <form id="bookForm" data-testid="bookForm">
@@ -54,7 +49,6 @@
             </form>
         </section>
 
-        <!-- Cari Buku -->
         <section>
             <h2>Cari Buku</h2>
             <form id="searchBook" data-testid="searchBookForm">
@@ -66,13 +60,11 @@
             </form>
         </section>
 
-        <!-- Buku Belum Selesai Dibaca -->
         <section>
             <h2>Belum Selesai Dibaca</h2>
             <div id="incompleteBookList" data-testid="incompleteBookList"></div>
         </section>
 
-        <!-- Buku Selesai Dibaca -->
         <section>
             <h2>Selesai Dibaca</h2>
             <div id="completeBookList" data-testid="completeBookList"></div>
